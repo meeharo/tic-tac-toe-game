@@ -51,9 +51,9 @@ const drawFunc = () => {
 const winFunc = (letter) => {
     disableBtn()
     if (letter == 'X') {
-        message.innerHTML = "&#x1F389; <br> 'X' Wins"
+        message.innerHTML = "&#x1F389; <br> X Wins"
     } else {
-        message.innerHTML = "&#x1F389; <br> 'O' Wins"
+        message.innerHTML = "&#x1F389; <br> O Wins"
     }
 }
 
